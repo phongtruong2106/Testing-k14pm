@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.gdu.TestDollar
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.024 s <<< FAILURE! - in com.gdu.TestDollar
+testSumPlusMoney  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.gdu.Expression.reduce(com.gdu.Bank, String)" because "source" is null
+	at com.gdu.TestDollar.testSumPlusMoney(TestDollar.java:127)
+

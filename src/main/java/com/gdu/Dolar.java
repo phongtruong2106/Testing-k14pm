@@ -6,22 +6,8 @@ package com.gdu;
 */
 public class Dolar extends Money {
 
-    public Dolar(int amount) {
-
-        super();
-        
-
-    }
-
-    public  Money times(int multiplier) {
-        return new Dolar(amount * multiplier);
-
-    }
-
-    @Override
-    public String currency() {
-        // TODO Auto-generated method stub
-        return null;
+    public Dolar(int amount, String currency) {
+        super(amount, currency);
     }
 
 }
